@@ -1,0 +1,14 @@
+# Función plot
+
+notas= c(11,9, 15, 20, 18, 2, 4, 11, 5, 14)
+length(notas)
+alumnos= c(1:10)
+plot(alumnos, notas)
+
+plot(notas)
+
+plot(alumnos, notas, main="Nota de los alumnos", xlab="alumnos", ylab = "notas")
+
+plot(alumnos, notas, main="Nota de los alumnos", xlab="alumnos", ylab = "notas", type= "s")
+plot(alumnos, notas, main="Nota de los alumnos", xlab="alumnos", ylab = "notas", type= "l", 
+     ylim= c(0,21),yaxp= c(0,20,20))
